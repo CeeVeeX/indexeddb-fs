@@ -31,7 +31,7 @@ describe('formatAndValidateFullPath Function', () => {
     expect(() => formatAndValidateFullPath('', 'root')).toThrow('"" path is invalid.');
 
     expect(() => formatAndValidateFullPath('//double_slash', 'root')).toThrow(
-      '"//double_slash" path is invalid. Path must match the following pattern: /^([A-Za-z]:|[A-Za-z0-9_-]+(.[A-Za-z0-9_-]+)*)((/[A-Za-z0-9_.-]+)+)$/',
+      '"//double_slash" path is invalid. Path must match the following pattern: /^([A-Za-z]:|[A-Za-z0-9_\u4E00-\u9FA5-]+(.[A-Za-z0-9_\u4E00-\u9FA5-]+)*)((/[A-Za-z0-9_\u4E00-\u9FA5.-]+)+)$/',
     );
   });
 });

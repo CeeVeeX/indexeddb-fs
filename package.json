@@ -1,16 +1,16 @@
 {
-  "name": "indexeddb-fs",
-  "version": "2.1.5",
+  "name": "ixfs",
+  "version": "1.0.0",
   "description": "An 'fs' kind of library dedicated to the browser",
   "license": "MIT",
-  "author": "Paweł Wojtasiński",
-  "homepage": "https://github.com/playerony/indexeddb-fs#readme",
+  "author": "Cee Vee X <ceeveex@hotmail.com>",
+  "homepage": "https://github.com/ceeveex/indexeddb-fs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/playerony/indexeddb-fs.git"
+    "url": "git+https://github.com/ceeveex/indexeddb-fs.git"
   },
   "bugs": {
-    "url": "https://github.com/playerony/indexeddb-fs/issues"
+    "url": "https://github.com/ceeveex/indexeddb-fs/issues"
   },
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
